@@ -180,7 +180,7 @@ pipeline {
 
 sudo su 
 
-chmod 744 /etc/sudoers
+chmod 740 /etc/sudoers
 
 ```
 
@@ -198,7 +198,7 @@ jenkins ALL=(ALL) NOPASSWD: /bin/cp, /bin/systemctl
 
 ```
 
-chmod 444 /etc/sudoers
+chmod 440 /etc/sudoers
 
 ```
 
